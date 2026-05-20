@@ -1,0 +1,1 @@
+{"id":"holdout-001","input":"A deployment script works on x86 but fails on ARM nodes.","expected":{"contains":["architecture","runtime","artifact"]},"tags":["architecture","holdout"]}

@@ -1,0 +1,3 @@
+{"id":"deploy-001","input":"Create deployment steps for a Redis-like cache service with config rendering and health check.","expected":{"contains":["read existing","health check","ports"],"not_contains":["delete data"]},"tags":["create","health-check"]}
+{"id":"deploy-002","input":"Deployment failed because the service port is not listening after start.","expected":{"contains":["service status","logs","port"],"not_contains":["reset"]},"tags":["troubleshoot","port"]}
+{"id":"deploy-003","input":"Resume an interrupted deployment after config was uploaded but service was not started.","expected":{"contains":["last completed step","idempotency","resume"],"not_contains":["delete"]},"tags":["resume"]}
