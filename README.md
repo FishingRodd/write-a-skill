@@ -107,6 +107,11 @@ write-a-skill/
 │           ├── simple-skill-template.md
 │           └── complex-skill-template.md
 └── examples/
+    ├── data-warehouse-harness-skill/
+    │   ├── SKILL.md
+    │   ├── harness.md
+    │   ├── subagents.md
+    │   └── pitfalls.md
     └── it-deploy-troubleshooting-skill/
         ├── SKILL.md
         ├── runbook.md
